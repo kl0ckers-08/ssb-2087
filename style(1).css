@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #92071c;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px
+  width: 100%;
+  background-color: #f42041;
+  border-bottom: solid 5px #000000;
+}
+.brand-title img {
+  padding: 0;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  margin: 10px 50px;
+  width: 45px ;
+  height: 45px;
+  cursor: pointer;
+}
+.navbar-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-search input {
+  text-transform: capitalize;
+  border: solid 0px;
+  border-radius: 15px;
+  color: #990000;
+  background-color: #b3b3b3;
+  padding: 0 10px;
+  height:40px ;
+  width:300px ;
+}
+.navbar-search ::-webkit-input-placeholder{
+  transform: transparent;
+  color: #fff;
+}
+.navbar-search :hover::-webkit-input-placeholder{
+  color: #333;
+}
+
+.navbar ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+  
+}
+.navbar ul li a {
+  margin: 0px 10px;
+  padding: 10px;
+  color: #fff ;
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  color: #000000;
+  border-radius: 10px ;
+   border: solid 0px #000000;
+   background-color: #ccc;
+}
+
+/*SIgn Up*/
+
+.form {
+  border: solid 0px #000000;
+  border-radius: 10px;
+  margin: 25%;
+  text-align: center;
+  width: auto;
+  background: #333;
+   padding: 20px 0px;
+}
+
+.form .Sign-Up-Header {
+  color: white;
+  padding: 3.5rem 0rem;
+}
+.form .Sign-Up-Header span {
+  border-radius: 0px 5px 0px 5px;
+  padding: .25rem;
+  color: #333;
+  background: #2846b5;
+}
+.form .Sign-Up-form input[type=email], input[type=password] {
+  width: 60%;
+  height: 45px;
+  margin: auto;
+  padding: 0px 1rem;
+  display: flex;
+}
+
+}
+.form .Sign-Up-form ::-webkit-input-placeholder {
+  color: transparent;
+}
+.form .Sign-Up-form :hover::-webkit-input-placeholder { 
+  color: #f42041;
+  
+}
+  
+  
+  
+
+.form .Sign-Up-Agreement {
+  margin-top: 1.5rem;
+  padding: 1rem;
+}
+.form .Sign-Up-Agreement a {
+  margin: 0rem .5rem;
+  color: #fff;
+}
+
+.Sign-Up-Submit input {
+  border: solid 0px #000000;
+  border-radius: 5px;
+  width: 25%;
+  padding: 13px;
+  margin-top: 1rem;
+  margin-bottom: 3.5rem;
+} 
+.Sign-Up-Submit input:hover {
+  background: #aa0820;
+}
+ 
+ 
+ 
+ 
+ 
+ /*Store*/
+.content #content-1 {
+  color: #fff;
+  background: url(background-content.gif);
+  background-size: 105%;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 50px 20px ;
+  padding: 15px 10px;
+  width: 20% auto;
+  height: auto;
+  background-color: #fff;
+}
+.content #content-1 img {
+  border: 5px solid #f42041;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+.content #content-1 button {
+  width: 100px;
+  height: 40px;
+}
+.content #content-1 p {
+  margin-bottom: 10px;
+} 
+ .container .About {
+   border: solid 2.5px #000000;
+   text-align: center;
+   background: #333;
+   padding: 40px;
+   margin: 20% 0px;
+ }
+ 
+ 
+  .container .About h1 {
+    color: #f42041;
+    margin: 5rem 0rem 2rem 0rem;
+    font: 55px serif ;
+  }
+  .container .About h3 {
+    color: #fff;
+    margin-bottom: 5rem;
+  }
+  
+   .container .About p {
+     word-spacing: 1rem;
+     border-top: #f42041 solid 5px;
+     padding-top: 5rem;
+     color: #fff;
+     font-size: 15px;
+     font-family: Palatino;
+     font-style: italic;
+     margin-bottom: 10rem;
+   }
+ 
+ 
+ .social-media-links a {
+   color: #fff;
+ }
+  .social-media-links i {
+    font-size: 25px;
+    padding: 0px 10px;
+    margin: 0px 0px;
+    border-right: solid #000000 3px;
+  }
+  .social-media-links h5 {
+    margin-bottom: 2.5rem;
+    font-size: 10px;
+    color:#fff;
+  }
+ 
+ 
+ /*Profile Page*/
+ /*
+ .Profile-Page-1 {
+   border-radius: 10px;
+   border: solid 1px #000000;
+   font-size: 15px;
+   padding: 5rem 0;
+   margin: 10% 0 25% 2rem;
+   text-align: center;
+   width: 20rem;
+   background: #333;
+   color: #fff;
+ }
+ .Profile-Page-1 label img {
+   border-radius: 15px;
+   border: solid 0px #000000;
+   margin-bottom: 1.5rem;
+   width: 80px;
+   height: 85px;
+ }
+  .Profile-Name {
+    padding-top: 1rem;
+    border-top: solid 2px #000000;
+    margin: 1rem 0;
+  }
+ .Profile-Name h1 {
+   font-size: 18px;
+ }
+ .Profile-Class h1 {
+   border-top: solid 2px #000000;
+   border-bottom: solid 2px #000000;
+   background: #b9f2ff;
+   color: #f42041;
+   padding: 1rem 0;
+   font-size: 15px;
+   margin-top: 1rem ;
+   margin-bottom: 2rem;
+ }
+ .Profile-DARTZ a {
+   margin: 1rem 0;
+   font-size: 12px;
+   color: #fff;
+ }
+ .textarea {
+   margin: 1rem 0;
+   width: 50%;
+   height: 50px;
+ }
+ */

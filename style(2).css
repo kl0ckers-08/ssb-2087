@@ -1,0 +1,311 @@
+ * {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #92071c;
+}
+ 
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  width: 100%;
+  background-color: #f42041;
+  border-bottom: solid 5px #000000;
+}
+.brand-title img {
+  padding: 0;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  margin: 0px 50px;
+  width: 45px ;
+  height: 45px;
+  cursor: pointer;
+}
+.navbar-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-search input {
+  text-transform: capitalize;
+  border: none;
+  border-radius: 15px;
+  color: #990000;
+  background-color: #b3b3b3;
+  padding: 0 10px;
+  height:40px ;
+  width:300px ;
+}
+.navbar-search ::-webkit-input-placeholder{
+  border-radius: 0 solid #000000;
+  transform: transparent;
+  color: #fff;
+}
+.navbar-search :hover::-webkit-input-placeholder{
+  color: #333;
+}
+
+.navbar ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 10px 0px;
+}
+.navbar ul li i {
+  font-size: 20px;
+  color: #fff;
+  margin-right: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  margin-bottom: -30px;
+}
+.navbar ul li i:hover {
+  color: #000000;
+}
+.navbar ul li a {
+  margin: 0px 10px;
+  padding: 20px 25px ;
+  text-align: center;
+  font-size: 15px;
+  color: #fff ;
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+   color: #000000;
+   background-color: #ccc;
+} 
+.navbar ul li ul li a {
+  text-align: center;
+  display: block;
+  padding: 10px 14px;
+}
+.navbar ul li ul li a:hover {
+  border-radius: 0px;
+  border: solid 0 #000000;
+  
+}
+ .navbar ul li ul {
+   margin-top: 25px;
+   padding: 5px  0px ;
+   display: none;
+   position: absolute;
+   background-color: #333;
+ }
+  .navbar ul li:hover ul {
+    display: block;
+  }
+
+
+
+
+
+
+
+ 
+ /*Profile Page*/
+ .Profile-Page-1 {
+   border-radius: 10px;
+   border: solid 1px #000000;
+   font-size: 15px;
+   padding: 5rem 0;
+   margin: 10% 0 25% 2rem;
+   text-align: center;
+   width: 20rem;
+   background: #333;
+   color: #fff;
+ }
+ .Profile-Page-1 label img {
+   border-radius: 15px;
+   border: solid 0px #000000;
+   margin-bottom: 1.5rem;
+   width: 80px;
+   height: 85px;
+ }
+  .Profile-Name {
+    padding-top: 1rem;
+    border-top: solid 2px #000000;
+    margin: 1rem 0;
+  }
+ .Profile-Name h1 {
+   font-size: 18px;
+ }
+ .Profile-Class h1 {
+   border-top: solid 2px #000000;
+   border-bottom: solid 2px #000000;
+   background: #b9f2ff;
+   color: #f42041;
+   padding: 1rem 0;
+   font-size: 15px;
+   margin-top: 1rem ;
+   margin-bottom: 2rem;
+ }
+ .Profile-DARTZ a {
+   margin: 1rem 0;
+   font-size: 12px;
+   color: #fff;
+ }
+ .textarea {
+   margin: 1rem 0;
+   width: 50%;
+   height: 50px;
+ }
+ 
+ 
+ 
+ .section-1 {
+ }
+  .section-1 label h1 {
+   color: #fff;
+   margin: 2rem 3rem;
+ }
+ .section-1 ul {
+   display: flex;
+ }
+ .section-1 ul li {
+   cursor: pointer;
+   padding: 30px 20px 30px 25px;
+   text-align: center;
+   display: inline;
+   list-style: none;
+   color: #fff ;
+   width: 20%;
+}
+ .section-1 ul li ul {
+   width: 20%;
+   margin-left: -12.5px;
+   margin-top: 24px;
+   padding: 10px  0px ;
+   display: none;
+   position: absolute;
+   background-color: #db0a2a;
+ }
+  .section-1 ul li ul li {
+   width: 20%;
+   margin: 0;
+   padding: 0;
+ }
+ .section-1 ul li i {
+   padding-left: 10px;
+   font-size: 20px;
+   color: #fff;
+}
+  .section-1 ul li:hover ul {
+    display: block;
+  } 
+ .section-1 ul li ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 10px 0px;
+}
+.section-1 ul li ul li a:hover {
+   cursor: pointer;
+   background: #ccc;
+   border-radius: 0px;
+   border: solid 0 #000000;
+   margin-left: -2.5%;
+   width: calc(100% + 5%);
+}
+
+.family {
+   text-align: center;
+   padding: 1.5rem .8rem;
+   width: 100%;
+    background-color:  #db0a2a;
+    margin-bottom:6.5rem;
+}
+.family:hover {
+   background: #92071c  ;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .carousel {
+  width: 50vw;
+  height: 50vh;
+  position: relative;
+  margin:10% 25%;
+  box-shadow: 15px 15px 20px #333 ;
+}
+
+.carousel > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 200ms opacity ease-in-out;
+  transition-delay: 200ms;
+}
+
+.slide > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slide[data-active] {
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms;
+}
+
+.carousel-button {
+  position: absolute;
+  z-index: 2;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, .5);
+  cursor: pointer;
+  border-radius: .25rem;
+  padding: 0 .5rem;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.carousel-button:focus {
+  outline: 1px solid black;
+}
+
+.carousel-button.prev {
+  left: 1rem;
+}
+
+.carousel-button.next {
+  right: 1rem;
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
